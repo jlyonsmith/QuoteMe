@@ -3,6 +3,7 @@ using System.Configuration;
 using ServiceStack.Configuration;
 using System.Collections.Generic;
 using QuoteMe.ServiceInterface;
+using System.IO;
 
 namespace QuoteMeService
 {
