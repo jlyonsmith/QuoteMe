@@ -30,8 +30,8 @@ namespace QuoteMe
             base.ViewDidLoad();
 
             IosPclExportClient.Configure();
-            //client = new JsonServiceClient("http://ec2-54-185-30-234.us-west-2.compute.amazonaws.com:1337/");
-            client = new JsonServiceClient("http://localhost:1337/");
+            client = new JsonServiceClient("http://ec2-54-185-95-219.us-west-2.compute.amazonaws.com:1337/");
+            //client = new JsonServiceClient("http://localhost:1337/");
         }
 
         public override void ViewWillAppear(bool animated)

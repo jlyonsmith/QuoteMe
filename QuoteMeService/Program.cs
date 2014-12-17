@@ -18,7 +18,7 @@ namespace QuoteMeService
             LogManager.LogFactory = new NLogFactory();
 
             var appHost = new AppHost();
-            var appConfig = new QuoteMeConfig(args.Length > 0 ? args[0] : null);
+            var appConfig = new QuoteMeConfig(args.Length > 0 ? args[0] : null, args.Length > 1 ? args[1] : null);
             appHost.Container.Register<IQuoteMeConfig>(appConfig);
             appHost.Init();
             appHost.Start(appConfig.ServiceUrl);

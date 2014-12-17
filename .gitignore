@@ -14,8 +14,7 @@ Scratch/**
 packages/**
 **/bin/iPhone/**
 **/bin/iPhoneSimulator/**
-**/obj/iPhone/**
-**/obj/iPhoneSimulator/**
 **/bin/Release/**
 **/bin/Debug/**
 **/bin/Release/**
+**/obj/**
